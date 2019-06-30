@@ -9,5 +9,6 @@ $db_connect = mysqli_connect($hostname, $db_username,$db_password,$db_name) or d
 
 
 //Time Configuration
-$time = date("H:m:i , d/m/Y", time() + 2*3600 );
+$post_time = date("H:m:i", time() + 2*3600 );
+$post_date = date("d/m/Y", time() + 2*3600);
 ?>
